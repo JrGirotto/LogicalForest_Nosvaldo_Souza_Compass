@@ -57,7 +57,7 @@ git commit -m "mensagem do commit"
 git push origin nome_da_branch:nome_da_branch
 ```
 
-## Técnologias utilizadas
+## Tecnologias utilizadas
 Aqui são listadas as técnologias utilizadas no projeto
 
 * [Cypress](https://www.cypress.io/) - The test framework used
@@ -82,3 +82,6 @@ Aqui devem vir as informações de licenciamento do projeto
 * Agradecimento as pessoas que apoiaram no projeto
 * Sites utilizados como referência
 * etc
+
+
+
