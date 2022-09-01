@@ -2,7 +2,7 @@
 
 function Permissao() {
 	NomeConvidado = document.getElementById('nome').value;
-	ConvidadosNosvaldo = ['Patricia', 'Karen', 'Kelly', "Junia", "Fernanda", "Douglas", "Eduardo"]
+	ConvidadosNosvaldo = ['Larissa', 'Patricia', 'Karen', 'Kelly', "Fernanda", "Douglas"]
 
 	if (ConvidadosNosvaldo.includes(NomeConvidado)) {
 		document.getElementById('Resposta').innerText = "Permitida Entrada! :)"

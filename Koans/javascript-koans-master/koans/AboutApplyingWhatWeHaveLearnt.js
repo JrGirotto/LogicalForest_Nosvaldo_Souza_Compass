@@ -82,12 +82,34 @@ describe("About Applying What We Have Learnt", function() {
     var ingredientCount = { "{ingredient name}": 0 };
 
     /* chain() together map(), flatten() and reduce() */
+    _(products).chain()
+    .map(function(product) { return product.ingredients })
+    .flatten()
+    .forEach(function (ingredient) {
+      ingredientCount[ingredient] = (ingredientCount[ingredient] || 0) + 1
+     })
 
-    expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
+
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 
   /*********************************************************************************/
-  /* UNCOMMENT FOR EXTRA CREDIT */
+  /* UNCOMMENT FOR EXTRA CREDIT 
+  
+  POSSÍVEL SOLUÇÃO:
+   
+    _(products).chain()
+                      .map(function(product) { return product.ingredients })
+                      .flatten()
+                      .forEach(function (ingredient) {
+                        ingredientCount[ingredient] = (ingredientCount[ingredient] || 0) + 1
+                       })
+
+    expect(ingredientCount['mushrooms']).toBe(2);
+  });
+  */
+  
+  
   /*
   it("should find the largest prime factor of a composite number", function () {
 
