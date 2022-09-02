@@ -21,18 +21,18 @@ describe("About Applying What We Have Learnt", function() {
     var i,j,hasMushrooms, productsICanEat = [];
 
     for (i = 0; i < products.length; i+=1) {
-        if (products[i].containsNuts === false) {
-            hasMushrooms = false;
-            for (j = 0; j < products[i].ingredients.length; j+=1) {
+        if (products[i].containsNuts === false) {  //descarta pizzas com Castanhas
+            hasMushrooms = false;                 //descarta pizzas com Cogumelos
+            for (j = 0; j < products[i].ingredients.length; j+=1) { //esse for procura as pizzas que tem Cogumelos
                if (products[i].ingredients[j] === "mushrooms") {
                   hasMushrooms = true;
                }
             }
-            if (!hasMushrooms) productsICanEat.push(products[i]);
+            if (!hasMushrooms) productsICanEat.push(products[i]); //Se não tiver Cogumelos, adiciona as pizzas que eu posso comer
         }
     }
 
-    expect(productsICanEat.length).toBe(FILL_ME_IN);
+    expect(productsICanEat.length).toBe(1);  //Variedade de pizzas que posso comer  
   });
 
   it("given I'm allergic to nuts and hate mushrooms, it should find a pizza I can eat (functional)", function () {
@@ -40,8 +40,15 @@ describe("About Applying What We Have Learnt", function() {
       var productsICanEat = [];
 
       /* solve using filter() & all() / any() */
+      var containsMushrooms = function(product) {
+        return _(product.ingredients).any(function(ingredient) { return ingredient === 'mushrooms' })
+      }
 
-      expect(productsICanEat.length).toBe(FILL_ME_IN);
+      productsICanEat = _(products).filter(function(x) { return !(containsMushrooms(x) || x.containsNuts) })
+
+
+
+      expect(productsICanEat.length).toBe(1);
   });
 
   /*********************************************************************************/
@@ -55,14 +62,25 @@ describe("About Applying What We Have Learnt", function() {
       }
     }
 
-    expect(sum).toBe(FILL_ME_IN);
+    expect(sum).toBe(233168);
   });
 
   it("should add all the natural numbers below 1000 that are multiples of 3 or 5 (functional)", function () {
+    
+    /* try chaining range() and reduce() */
+    var sum = 0;
 
-    var sum = FILL_ME_IN;    /* try chaining range() and reduce() */
+    var multiplos = _.range(0, 1000).filter(i => { //faz um array de 0 a 1000
+      if (i % 3 == 0 || i % 5 == 0) {  //seleciona no array de cima só os multiplos de 3 e 5 
+         return i; // retorna todos os multiplos de 3 e 5
+    }
+  });
+         
+         sum = multiplos.reduce(function (acum, atual) { //somo todos os multiplos de 3 e 5 e joga na variável sum
+          return acum + atual;  
+         });
 
-    expect(233168).toBe(FILL_ME_IN);
+    expect(233168).toBe(sum);
   });
 
   /*********************************************************************************/
@@ -75,7 +93,7 @@ describe("About Applying What We Have Learnt", function() {
         }
     }
 
-    expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 
   it("should count the ingredient occurrence (functional)", function () {
@@ -83,11 +101,10 @@ describe("About Applying What We Have Learnt", function() {
 
     /* chain() together map(), flatten() and reduce() */
     _(products).chain()
-    .map(function(product) { return product.ingredients })
-    .flatten()
-    .forEach(function (ingredient) {
-      ingredientCount[ingredient] = (ingredientCount[ingredient] || 0) + 1
-     })
+    .map(function(product) {return product.ingredients}) //pega os ingredientes no array principal
+    .flatten() //junta os arrays
+    .reduce(function(_a,b) {return ingredientCount[b] = (ingredientCount[b] || 0) + 1}) //soma os valores de um array em um só
+    .value();
 
 
     expect(ingredientCount['mushrooms']).toBe(2);
@@ -96,21 +113,8 @@ describe("About Applying What We Have Learnt", function() {
   /*********************************************************************************/
   /* UNCOMMENT FOR EXTRA CREDIT 
   
-  POSSÍVEL SOLUÇÃO:
-   
-    _(products).chain()
-                      .map(function(product) { return product.ingredients })
-                      .flatten()
-                      .forEach(function (ingredient) {
-                        ingredientCount[ingredient] = (ingredientCount[ingredient] || 0) + 1
-                       })
-
-    expect(ingredientCount['mushrooms']).toBe(2);
-  });
-  */
   
   
-  /*
   it("should find the largest prime factor of a composite number", function () {
 
   });
@@ -132,4 +136,4 @@ describe("About Applying What We Have Learnt", function() {
 
   });
   */
-});
+  });
