@@ -1,15 +1,10 @@
 # LogicalForest_Nosvaldo_Souza_Compass
-Repositório Spring 4 - Tech 
 
-<<<<<<< HEAD
-=======
+## Repositório Spring 4 - Tech 
 
-# Titulo do Projeto
->>>>>>> b03a707ad163fa4f80b5084a1babc4ad12445064
+ **Javascript e Versionamento de Código**
 
-## Javascript e Versionamento de Código
-
-Tecnologias utilizadas e os respectivos link dos Projetos realizados:
+Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos realizados:
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" width="40" height="40"/> 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
