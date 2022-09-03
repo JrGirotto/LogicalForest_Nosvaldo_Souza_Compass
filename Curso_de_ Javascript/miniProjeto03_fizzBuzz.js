@@ -1,4 +1,4 @@
-let entrada = 15
+let entrada = 9
 
 function fizzBuzz() {
 	if (!isNaN(entrada)) {
