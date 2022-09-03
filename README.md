@@ -1,6 +1,6 @@
 # LogicalForest_Nosvaldo_Souza_Compass
 
-## Repositório Spring 4 - Tech 
+## Sprint 4 - Tech 
 
  **Javascript e Versionamento de Código**
 
