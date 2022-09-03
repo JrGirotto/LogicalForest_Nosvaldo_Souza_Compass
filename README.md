@@ -10,7 +10,6 @@ Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos reali
 
 * [Git e GitHub](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/blob/main/git-lesson/comandosGit.txt)
 
-<<<<<<< HEAD
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
 
@@ -24,8 +23,6 @@ Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos reali
 
 * [Koans](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Curso_de_Javascript)
 
-
-=======
 #
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
 
@@ -40,8 +37,6 @@ Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos reali
 * [Koans](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Koans)
 
 #
->>>>>>> f6d6ff9f4a19c814496254ea09f0b36b52458271
-
 ## Créditos
 
 * Agradecimentos a SM Larissa pelas dúvidas sanadas e todo acompanhamento e dedicação no projeto.
