@@ -1,14 +1,14 @@
-const velMax = 80
+let velMax = 20
 const km_pontos = 5
-radar(120)
+radar(60)
 
 function radar(velocidade) {
 	
-	if(velocidade <= velMax)
+	if(velocidade >= velMax)
 		console.log('Velocidade Normal');
 
 	else {
-		const pontos = Math.floor((velocidade-velMax)/km_pontos)
+		let pontos = Math.floor((velMax-velocidade)/km_pontos)
 		if (pontos > 0 && pontos < 12)
 			console.log(pontos, 'Pontos. Dirija mais Devagar!');
 		
