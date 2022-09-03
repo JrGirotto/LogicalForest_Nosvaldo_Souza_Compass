@@ -1,6 +1,8 @@
-# LogicalForest_Nosvaldo_Souza_Compass - Sprint 4 Tech 
+# LogicalForest_Nosvaldo_Souza_Compass
 
-## **Javascript e Versionamento de Código**
+## Repositório Spring 4 - Tech 
+
+ **Javascript e Versionamento de Código**
 
 Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos realizados:
 
@@ -22,8 +24,10 @@ Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos reali
 
 * [Koans](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Koans/javascript-koans-master)
 #
+
 ## Créditos
 
 * Agradecimentos a SM Larissa pelas dúvidas sanadas e todo acompanhamento e dedicação no projeto.
 * Sites utilizados como referência:
+
  **_Github, Alura, Underscorejs.org_**
