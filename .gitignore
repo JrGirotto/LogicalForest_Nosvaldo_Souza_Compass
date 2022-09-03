@@ -1,6 +1,4 @@
-<<<<<<< HEAD
+
 Koans/antigo.zip
-=======
-Koans/antigo.zip
->>>>>>> f6d6ff9f4a19c814496254ea09f0b36b52458271
- ./Mocha-Chai/node_modules
+
+/Mocha-Chai/node_modules
