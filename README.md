@@ -1,6 +1,11 @@
 # LogicalForest_Nosvaldo_Souza_Compass
 Repositório Spring 4 - Tech 
 
+<<<<<<< HEAD
+=======
+
+# Titulo do Projeto
+>>>>>>> b03a707ad163fa4f80b5084a1babc4ad12445064
 
 ## Javascript e Versionamento de Código
 
