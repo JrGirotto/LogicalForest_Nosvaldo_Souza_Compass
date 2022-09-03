@@ -1,88 +1,31 @@
-# LogicalForest_Nosvaldo_Souza_Compass
-Repositório Spring Tech
+# LogicalForest_Nosvaldo_Souza_Compass - Sprint 4 Tech 
+
+## **Javascript e Versionamento de Código**
+
+Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos realizados:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-plain.svg" width="40" height="40"/>
 
 
-# Titulo do Projeto
+* [Git e GitHub](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/blob/main/git-lesson/comandosGit.txt)
 
-Aqui vai uma breve descrição do projeto
 
-## Apresentação
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
 
-Essas instruções irão auxiliar a obtenção de uma cópia do projeto em sua máquina local para desenvolvimento para desenvolvimento e testes.
+* [14 Mini Projetos em JS](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Curso_de_Javascript)
 
-### Pré requisitos
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="40" height="40"/> <img src="https://cdn.cdnlogo.com/logos/c/18/chai.svg" width="40" height="40"/>
 
-Aqui são listados os pré requisitos do projeto, assim como os comandos e links para a instalação dos mesmos
+* [Mocha e Chai](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Curso_de_Javascript)
 
-```
-compatível com versão x do sistema operacional y
-versão x do node deve estar instalada
-```
+<img src="https://img2.gratispng.com/20200808/tbl/transparent-il-dogma-del-big-bang-wall-decal-poster-sticker-ar-5f2f08ebb9f078.8841945415969179957616.jpg" width="40" height="40"/> 
 
-### Instalação
+* [Koans](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Curso_de_Javascript)
 
-Aqui vai um passo a passo para que o projeto possa ser executado
 
-Instalar os node modules
-
-```
-npm install
-```
-
-Instalar o cypress
-
-```
-npm install cypress
-```
-
-## Execução dos testes
-
-Explicação de como executar os testes automatizados
-
-```
-npm run cy:test
-```
-
-### Break down into end to end tests
-
-Explicação sobre os tipos de testes realizados e como consultar os reports gerados
-
-```
-Aqui pode ser informada uma pasta para acesso dos reports ou algum comando necessário
-```
-
-## Deployment
-
-Informar aqui como realizar os PR's para atualização do projeto:
-
-```
-git checkout -b "nome_da_branch"
-git commit -m "mensagem do commit"
-git push origin nome_da_branch:nome_da_branch
-```
-
-## Técnologias utilizadas
-Aqui são listadas as técnologias utilizadas no projeto
-
-* [Cypress](https://www.cypress.io/) - The test framework used
-* [Cucumber](https://cucumber.io/) - BDD + geração de relatório de teste
-
-## Contribuição
-
-Nesta sessão são descritas as políticas para novas contribuições e os valores analisados para aceitação das mesmas
-
-## Autores
-
-* **Autor Aqui** - *Entrega inicial* - [Link para a raiz do projeto no git](https://github.com/)
-
-Importante listar os  [contribuintes](https://github.com/seu/projeto/contributors) que participaram deste projeto
-
-## License
-
-Aqui devem vir as informações de licenciamento do projeto
 
 ## Créditos
 
-* Agradecimento as pessoas que apoiaram no projeto
-* Sites utilizados como referência
-* etc
+* Agradecimentos a SM Larissa pelas dúvidas sanadas e todo acompanhamento e dedicação no projeto.
+* Sites utilizados como referência:
+ **_Github, Alura, Underscorejs.org_**
