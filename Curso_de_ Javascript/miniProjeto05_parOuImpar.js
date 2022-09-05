@@ -1,4 +1,4 @@
-numero = 10
+numero = 5
 
 function parOuImpar() {
     

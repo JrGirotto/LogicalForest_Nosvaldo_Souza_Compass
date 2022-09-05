@@ -7,6 +7,7 @@ function Endereco(rua, cidade, estado, cep)  {
 	this.cep = cep
 };
 	const endereco1 = new Endereco('Rua Das Flores', 'Marília', 'SP', 17505-470)
+	//const endereco2 = new Endereco('Rua Das Flores', 'Marília', 'SP', 17505-470)
 	const endereco2 = new Endereco('5 St', 'Arkansas', 'CA', 1470)
 
 function EnderecosIguais(endereco1, endereco2) {
@@ -15,10 +16,10 @@ function EnderecosIguais(endereco1, endereco2) {
 		endereco1.estado === endereco2.estado &&
 		endereco1.cep === endereco2.cep;
 	}
-console.log(EnderecosIguais(endereco1, endereco2));
+console.log('Endereços Iguais:', EnderecosIguais(endereco1, endereco2));
 
 
 function EnderecosMemoriaIguais(endereco1, endereco2) {
 	return endereco1 === endereco2;
 }
-console.log(EnderecosMemoriaIguais(endereco1, endereco2));
+console.log('Endereços Iguais a nivel de memória:', EnderecosMemoriaIguais(endereco1, endereco2));

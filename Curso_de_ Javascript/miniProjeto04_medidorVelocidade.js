@@ -1,4 +1,4 @@
-let velMax = 20
+let velMax = 180
 const km_pontos = 5
 radar(60)
 

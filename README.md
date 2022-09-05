@@ -16,7 +16,9 @@ Abaixo segue as Tecnologias utilizadas e os respectivos links dos Projetos reali
 
 * [14 Mini Projetos em JS](https://github.com/JrGirotto/LogicalForest_Nosvaldo_Souza_Compass/tree/main/Curso_de_%20Javascript)
 
-<details closed><summary>Códigos JS - Mini Projetos</summary>
+<details closed>
+<summary>Códigos JS - Mini Projetos</summary>
+
 <summary>01 - Troca Valores</summary>
 
 ~~~javascript
